@@ -1,0 +1,548 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecao</title>
+    <link rel="icon" href="/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <a href="#home" class="logo">Selecao</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="nav-icon active">Home</a>
+            <a href="#about" class="nav-icon">About</a>
+            <a href="#service" class="nav-icon">Service</a>    
+            <a href="#portfolio" class="nav-icon">Portfolio</a>
+            <a href="#team" class="nav-icon">Team</a>
+
+            <li class="dropdown">
+                <a href="#" class="dropdown-btn nav-icon">Dropdown<i class='bx bx-chevron-down'></i> </a>
+                
+                <ul class="dropdown-content">
+                    <li><a href="#">Dropdown 1</a></li>
+                    <li><a href="#">Dropdown 2</a></li>
+    
+                    <!-- Nested Dropdown -->
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-btn">Deep Dropdown <i class='bx bx-chevron-down'></i></a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Dropdown 1</a></li>
+                            <li><a href="#">Dropdown 2</a></li>
+                            <li><a href="#">Dropdown 3</a></li>
+                            <li><a href="#">Dropdown 4</a></li>
+                            <li><a href="#">Dropdown 5</a></li>
+
+                        </ul>
+                    </li>
+    
+                    <li><a href="#">Dropdown 3</a></li>
+                    <li><a href="#">Dropdown 4</a></li>
+                </ul>
+            </li>
+
+            <a href="#contact" class="nav-icon">Contact</a>
+        </nav>
+    </header>
+    <i class='bx bx-chevron-up scroll-top-btn' id='scroll-top-btn'></i>
+
+    <section class="home" id="home">
+        <button class="prev-arrow">&#10094;</button>
+        <div class="home-content">
+            <div class="slider">
+                <div class="slider-content">
+                    <div class="slide active">
+                        <h1 class="animated-header">Welcome to <span> Selecao</span></h1>
+                        <h3 class="animated-paragraph">Ut velit est quam dolor ad a aliquid qui aliquid.
+                                Sequi ea ut et est quaerat sequi nihil ut aliquam.
+                                Occaecati alias dolorem mollitia ut. Similique ea voluptatem.
+                                Esse doloremque accusamus repellendus deleniti vel.
+                                Minus et tempore modi architecto.</h3>
+                        <a href="#about" class="animated-button">Read More</a>
+                    </div>
+                    <div class="slide">
+                        <h1 class="animated-header">Lorem Ipsum Dolor</h1>
+                        <h3 class="animated-paragraph">Ut velit est quam dolor ad a aliquid qui aliquid.
+                                Sequi ea ut et est quaerat sequi nihil ut aliquam.
+                                Occaecati alias dolorem mollitia ut. Similique ea voluptatem.
+                                Esse doloremque accusamus repellendus deleniti vel.
+                                Minus et tempore modi architecto.</h3>
+                        <a href="#about" class="animated-button">Read More</a>
+                    </div>
+                    <div class="slide">
+                        <h1 class="animated-header">Sequi ea ut et est</h1>
+                        <h3 class="animated-paragraph">Ut velit est quam dolor ad a aliquid qui aliquid.
+                                Sequi ea ut et est quaerat sequi nihil ut aliquam.
+                                Occaecati alias dolorem mollitia ut. Similique ea voluptatem.
+                                Esse doloremque accusamus repellendus deleniti vel.
+                                Minus et tempore modi architecto.</h3>
+                                <a href="#about" class="animated-button">Read More</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="next-arrow">&#10095;</button>
+            
+           <!--Waves Container-->
+        <div>
+            <svg
+            class="waves"
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28"
+            preserveAspectRatio="none"
+            shape-rendering="auto"
+            >
+            <defs>
+                <path
+                id="gentle-wave"
+                d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z"
+                />
+            </defs>
+            <g class="parallax">
+                <use
+                xlink:href="#gentle-wave"
+                x="48"
+                y="0"
+                fill="rgba(255,255,255,0.7)"
+                />
+                <use
+                xlink:href="#gentle-wave"
+                x="48"
+                y="3"
+                fill="rgba(255,255,255,0.5)"
+                />
+                <use
+                xlink:href="#gentle-wave"
+                x="48"
+                y="5"
+                fill="rgba(255,255,255,0.3)"
+                />
+                <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+            </g>
+            </svg>
+        </div>
+        <!--Waves end-->
+    </section>
+
+
+    <section class="about" id = "about">
+        <h2 class="heading">ABOUT</h2>
+        <h2>Who we are</h2>
+        <div class="timeline-items">
+                    <h3>High school</h3>
+                    <p>Lorem Ipsum Dolor
+                    Ut velit est quam dolor ad a aliquid qui aliquid.
+                    Sequi ea ut et est quaerat sequi nihil ut aliquam.
+                    Occaecati alias dolorem mollitia ut. Similique ea voluptatem.
+                    Esse doloremque accusamus repellendus deleniti vel.
+                    Minus et tempore modi architecto.</p>
+        </div>
+    </section>
+
+    <section class="details">
+        <div class="details-head">
+            <!-- Add 'active' class to the first div to make it active on page load -->
+            <div class="active">
+                <i class="bx bxs-binoculars"></i>
+                <p>Nostrum qui dile node</p>
+            </div>
+            <div>
+                <i class="bx bx-package"></i>
+                <p>Pariatur explica nitro dela</p>
+            </div>
+            <div>
+                <i class="bx bx-sun"></i>
+                <p>Unde praesenti mara setra le</p>
+            </div>
+            <div>
+                <i class="bx bx-command"></i>
+                <p>Modi sit est dela pireda nest</p>
+            </div>
+        </div>
+        <div class="details-body">
+            <!-- Default visible content when first section is active -->
+            <div class="content-wrapper active">
+                <div class="text">
+                    <h2>Heading for First Section</h2>
+                    <p>This is the paragraph for the first section.</p>
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                    </ul>
+                </div>
+                <div class="image" style="background-image: url('/images/working-1.jpg');"></div>
+            </div>
+            <!-- Other content sections will be hidden by default -->
+            <div class="content-wrapper">
+                <div class="text">
+                    <h2>Heading for Second Section</h2>
+                    <p>This is the paragraph for the second section.</p>
+                    <ul>
+                        <li>Item A</li>
+                        <li>Item B</li>
+                        <li>Item C</li>
+                    </ul>
+                </div>
+                <div class="image" style="background-image: url('images/working-4.jpg');"></div>
+            </div>
+            <div class="content-wrapper">
+                <div class="text">
+                    <h2>Heading for Third Section</h2>
+                    <p>This is the paragraph for the third section.</p>
+                    <ul>
+                        <li>Item A</li>
+                        <li>Item B</li>
+                        <li>Item C</li>
+                    </ul>
+                </div>
+                <div class="image" style="background-image: url('images/testimonials/testimonials-4.jpg');"></div>
+            </div>
+            <div class="content-wrapper">
+                <div class="text">
+                    <h2>Heading for fourth Section</h2>
+                    <p>This is the paragraph for the second section.</p>
+                    <ul>
+                        <li>Item A</li>
+                        <li>Item B</li>
+                        <li>Item C</li>
+                    </ul>
+                </div>
+                <div class="image" style="background-image: url('images/testimonials/testimonials-2.jpg');"></div>
+            </div>
+            
+            <!-- Repeat for other sections -->
+        </div>
+    </section>
+        
+    <section class="call-to-action">
+        <div>
+            
+            <h2>Call To Action</h2>
+            <p>Duis aute irure dolor in reprehenderit in voluptate 
+                velit esse cillum dolore eu fugiat nulla pariatur.
+                 Excepteur sint occaecat cupidatat non proident,
+                 sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+        <div>
+            <a href="#" class="btn">Call To Action</a>
+        </div>
+    </section>
+
+    <section class="service" id="service">
+        <h2 class="heading">SERVICE</h2>
+        <h2>What we do offer</h2>
+    </section>
+    
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading" >PORTFOLIO</h2>
+        <h2>What we've done </h2>
+    </section>
+   
+    <section class="testimonials">
+        <h2 class="heading">Testimonials</h2>
+        <h2>What they are saying about us</h2>
+        <div class="testimonial-slider-wrapper">
+            <div class="testimonial-slider">
+                <!-- Testimonial 1 -->
+                <div class="testimonial">
+                    <div class="author">
+                        <img src="/images/testimonials/testimonials-1.jpg" alt="Client 1" class="client-img">
+                        <div class="client-info">
+                            <h3 class="name">John Doe</h3>
+                            <span class="role">CEO at Company</span>
+                            <div class="stars">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                            </div>
+                            <p class="description"> <i class='bx bxs-quote-alt-left quote'></i>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio.
+                                <i class='bx bxs-quote-alt-left inverted-quote'></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="testimonial">
+                    <div class="author">
+                        <img src="/images/testimonials/testimonials-2.jpg" alt="Client 2" class="client-img">
+                        <div class="client-info">
+                            <h3 class="name">Jane Smith</h3>
+                            <span class="role">CTO at Company</span>
+                            <div class="stars">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                            </div>
+                            <p class="description"> <i class='bx bxs-quote-alt-left quote'></i> 
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio.
+                                <i class='bx bxs-quote-alt-left inverted-quote'></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="testimonial">
+                    <div class="author">
+                        <img src="/images/testimonials/testimonials-3.jpg" alt="Client 3" class="client-img">
+                        <div class="client-info">
+                            <h3 class="name">Michael Johnson</h3>
+                            <span class="role">Founder at Company</span>
+                            <div class="stars">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                            </div>
+                            <p class="description"> <i class='bx bxs-quote-alt-left quote'></i> 
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio.
+                                <i class='bx bxs-quote-alt-left inverted-quote'></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 4 -->
+                <div class="testimonial">
+                    <div class="author">
+                        <img src="/images/testimonials/testimonials-4.jpg" alt="Client 4" class="client-img">
+                        <div class="client-info">
+                            <h3 class="name">Alice Cooper</h3>
+                            <span class="role">Manager at Company</span>
+                            <div class="stars">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                            </div>
+                            <p class="description"> <i class='bx bxs-quote-alt-left quote'></i>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio.
+                                <i class='bx bxs-quote-alt-left inverted-quote'></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 5 -->
+                <div class="testimonial">
+                    <div class="author">
+                        <img src="/images/testimonials/testimonials-5.jpg" alt="Client 5" class="client-img">
+                        <div class="client-info">
+                            <h3 class="name">David Warner</h3>
+                            <span class="role">Designer at Company</span>
+                            <div class="stars">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                            </div>
+                            <p class="description"> <i class='bx bxs-quote-alt-left quote'></i>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio.
+                                <i class='bx bxs-quote-alt-left inverted-quote'></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 1 for loop -->
+                <div class="testimonial">
+                    <div class="author">
+                        <img src="/images/testimonials/testimonials-1.jpg" alt="Client 1" class="client-img">
+                        <div class="client-info">
+                            <h3 class="name">John Doe</h3>
+                            <span class="role">CEO at Company</span>
+                            <div class="stars">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                            </div>
+                            <p class="description"> <i class='bx bxs-quote-alt-left quote'></i>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio.
+                                <i class='bx bxs-quote-alt-left inverted-quote'></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="testimonial">
+                    <div class="author">
+                        <img src="/images/testimonials/testimonials-2.jpg" alt="Client 2" class="client-img">
+                        <div class="client-info">
+                            <h3 class="name">Jane Smith</h3>
+                            <span class="role">CTO at Company</span>
+                            <div class="stars">
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                                <i class='bx bxs-star'></i>
+                            </div>
+                            <p class="description"> <i class='bx bxs-quote-alt-left quote'></i> 
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio.
+                                <i class='bx bxs-quote-alt-left inverted-quote'></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="testimonial-dots">
+                <span class="dot active" data-index="0"></span>
+                <span class="dot" data-index="1"></span>
+                <span class="dot" data-index="2"></span>
+                <span class="dot" data-index="3"></span>
+                <span class="dot" data-index="4"></span>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="pricing">
+        <h2 class="heading">Pricing</h2>
+        <h2>Our Plans</h2>
+    </section>
+
+    <section class="faq-section">
+        <h2 class="heading">Frequently Asked Questions</h2>
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-container">
+            <div class="faq">
+                <button class="faq-question"><i class='bx bx-chevron-down'></i>What is your return policy?</button>
+                
+                <div class="faq-answer">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum.</p>
+                </div>
+            </div>
+            <div class="faq">
+                <button class="faq-question"><i class='bx bx-chevron-down'></i>How do I track my order?</button>
+                <div class="faq-answer">
+                    <p>Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.</p>
+                </div>
+            </div>
+            <div class="faq">
+                <button class="faq-question"><i class='bx bx-chevron-down'></i>What payment methods do you accept?</button>
+                <div class="faq-answer">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section class="team" id ="team">
+        <h2 class="heading">team</h2>
+        <h2>Our Hardworking Team</h2>
+    </section>
+    
+    <section class="posts">
+        <h2 class="heading">Recent Posts</h2>
+        <h2>Recent Blog Posts</h2>
+    </section>
+    
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact</h2>
+        <h2>Contact Us</h2>
+        <div class="contact-box">
+
+            <div class="info">
+                <div class="container">
+                    <div class="icon">
+                        <i class='bx bx-location-plus' ></i>
+                        
+                    </div>
+                    <div>
+                        <h2>Address</h2>
+                        <p>A108 Adam Street, New York, NY 535022</p>
+    
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="icon">
+    
+                        <i class='bx bx-phone'></i>
+                    </div>
+                    <div>
+                        <h2>Call Us</h2>
+                        <p>+1 5589 55488 55</p>
+    
+                    </div>
+                </div>
+                <div class="container">
+    
+                    <div class="icon">
+                        <i class='bx bx-envelope' ></i>
+    
+                    </div>
+                    <div>
+                        
+                        <h2>Email Us</h2>
+                        <p>info@example.com</p>
+                    </div>
+    
+                </div>
+            </div>
+            <div class="input">
+                <form action="">
+                    <div class="input-box">
+                        <input type="text" placeholder="Full Name">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="input-box">
+                        <input type="text" placeholder="Subject">
+                    </div>
+                    <div class="input-box">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Message"></textarea>
+                    </div>
+                    <div class="btn-box">
+                        <input type="submit" value="Send Message" class="btn">
+                    </div>
+                </form>
+            </div>
+            
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <div class="footer-head">
+            <h2>Selecao</h2>
+            <p>Et aut eum quis fuga eos sunt ipsa nihil.
+                 Labore corporis magni eligendi fuga maxime
+                  saepe commodi placeat.</p>
+        </div>
+        <div class="social">
+            <a href="#"> <i class='bx bxl-twitter'></i></a>
+            <a href="#"> <i class='bx bxl-facebook'></i></a>
+            <a href="#"> <i class='bx bxl-instagram'></i></a>
+            <a href="#"> <i class='bx bxl-skype'></i></a>
+            <a href="#"> <i class='bx bxl-linkedin'></i></a>
+        </div>
+        <div class="copyright">
+            <p>Copyright <span>Selecao</span> All Rights Reserved</p>
+            <p>Designed by <span class="name">Mohanad Refaye</span> </p>
+        </div>
+    </footer>
+
+    <script src="/js/script.js"></script>
+</body>
+</html>
