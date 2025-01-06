@@ -402,8 +402,7 @@ button {
 
 .details-head {
     display: flex;
-    gap: 20px;
-    justify-content: space-between; /* Distribute items evenly */
+    justify-content: space-between;
     font-size: 20px;
     margin-bottom: 20px;
 }
